@@ -14,7 +14,11 @@ module.exports = {
         'Ginto-Nord': ['ABC Ginto Nord Unlicensed Trial', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
         'Roboto': ['Roboto', 'sans-serif']
-      }
+      },
+      screens: {
+        'sm': {'max': '570px'},
+        'xsm': {'max': '450px'},
+      },
     },
   },
   plugins: [],
