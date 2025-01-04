@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord - Free chill playground</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        Html, body{
+            height: 100vw;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-screen">
+        
+        <!--Navigation Bar-->
+        <nav class="bg-Blurple p-[1.5rem] font-Poppins flex justify-center items-center">
+            <div class="flex flex-col gap-[0.8rem] justify-center items-center max-w-[1080px] lg:flex-row lg:gap-[2rem]">
+                <!--windows installer-->
+                <a href="./Installer/DiscordSetup.exe" class="flex flex-row items-center gap-[0.5rem] bg-[#ffffff] text-[#000000] py-[0.5rem] px-[1.5rem] rounded-[20px] hidden lg:block transition-all duration-200 hover:scale-105">
+                    <i class="fa-solid fa-download"></i>
+                    <button>Download for Windows</button>
+                </a>
+
+                <!--Tabs and Mobile installer-->
+                <a href="https://play.google.com/store/apps/details?id=com.discord&hl=en_IN&pli=1" class="flex flex-row items-center gap-[0.5rem] bg-[#ffffff] text-[#000000] py-[0.5rem] px-[1.5rem] rounded-[20px] lg:hidden transition-all duration-200 hover:scale-105">
+                    <i class="fa-solid fa-download"></i>
+                    <button>Download Discord</button>
+                </a>
+                <a href="#" class="bg-[#000000] text-[#ffffff] py-[0.5rem] px-[1.5rem] rounded-[20px] transition-all duration-200 hover:scale-105">
+                    <button>Open Discord on your browser</button>
+                </a>
+
+            </div>
+        </nav>
+
+        <!--Invitation Section-->
+        <section class="w-screen flex justify-center items-center pt-[6rem] pb-[3rem] px-[1.5rem] bg-[#000000] text-[#ffffff]">
+            <div class="flex flex-col justify-center items-center lg:flex-row gap-[3rem] max-w-[1080px]">
+                <div><img src="./Image-assets/section1Image.svg" class="hover:scale-105 brightness-105 transition-all duration-200"></div>
+                <div class="text-center flex flex-col gap-[1.5rem] lg:max-w-[35%] lg:text-start">
+                    <h1 class="font-bold font-Poppins text-[25px] lg:text-[36px]">Create and invite- only place where you belong</h1>
+                    <p class="font-Poppins text-[17px]">Discord servers are organized into topic- based channels where you can collaborate, share and just talkl about your day without clogging up a group chat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Hangout Section-->
+        <section class="w-screen flex justify-center items-center pt-[6rem] pb-[3rem] px-[1.5rem] bg-[#000000] text-[#ffffff]">
+            <div class="flex flex-col justify-center items-center lg:flex-row gap-[3rem] max-w-[1080px]">
+                <div class="text-center flex flex-col gap-[1.5rem] lg:max-w-[29%] lg:text-start">
+                    <h1 class="font-bold font-Poppins text-[25px] lg:text-[36px]">Where hanging out is easy</h1>
+                    <p class="font-Poppins text-[17px]">Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly pop up in to talk without having to call.</p>
+                </div>
+                <div><img src="./Image-assets/section2Image.svg" class="hover:scale-105 brightness-105 transition-all duration-200"></div>
+            </div>
+        </section>
+
+        <!--Fandom Section-->
+        <section class="w-screen flex justify-center items-center pt-[6rem] pb-[3rem] px-[1.5rem] bg-[#000000] text-[#ffffff]">
+            <div class="flex flex-col justify-center items-center lg:flex-row gap-[3rem] max-w-[1080px]">
+                <div><img src="./Image-assets/section3Image.svg" class="hover:scale-105 brightness-105 transition-all duration-200"></div>
+                <div class="text-center flex flex-col gap-[1.5rem] lg:max-w-[35%] lg:text-start lg:ml-[2.5rem]">
+                    <h1 class="font-bold font-Poppins text-[25px] lg:text-[36px]">From few to a fandom</h1>
+                    <p class="font-Poppins text-[17px]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Reliable Tech Section-->
+        <section class="w-screen flex justify-center items-center pt-[6rem] pb-[3rem] px-[1.5rem] bg-[#000000] text-[#ffffff]">
+            <div>
+                <div class="flex flex-col justify-center items-center text-center max-w-[810px] gap-[1rem]">
+                    <h1 class="font-Ginto-Nord font-extrabold text-[25px]">RELIABLE TECH FOR STAYING CLOSE</h1>
+                    <p class="text-[17px] leading-8">Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+                </div>
+                <div>
+                    <img src="./Image-assets/section4Image.svg" class="hover:scale-105 transition-all duration-200 brightness-125">
+                </div>
+            </div>
+        </section>
+
+        <!--Download Button-->
+        <section class="w-screen flex justify-center items-center pt-[3rem] pb-[3rem] px-[1.5rem] text-[#000000] bg-[#ffffff]">
+            <div class="bg-[url(./Image-assets/section5Image.svg)] bg-no-repeat bg-contain py-[2rem] px-[3.5rem] flex flex-col justify-center items-center gap-[1.7rem] text-center">
+                <p class="text-[25px] font-bold">Ready to start your journey?</p>
+                <!--windows installer-->
+                <a href="./Installer/DiscordSetup.exe" class="flex flex-row items-center gap-[0.5rem] bg-Blurple font-medium text-[#ffffff] py-[0.5rem] px-[1.5rem] rounded-[20px] hidden lg:block transition-all duration-200 hover:scale-105 hover:bg-[#4756D1] hover:font-semibold">
+                    <i class="fa-solid fa-download"></i>
+                    <button>Download for Windows</button>
+                </a>
+
+                <!--Tabs and Mobile installer-->
+                <a href="https://play.google.com/store/apps/details?id=com.discord&hl=en_IN&pli=1" class="flex flex-row items-center gap-[0.5rem] bg-Blurple font-medium text-[#ffffff] py-[0.5rem] px-[1.5rem] rounded-[20px] lg:hidden transition-all duration-200 hover:scale-105  hover:bg-[#4756D1] hover:font-semibold">
+                    <i class="fa-solid fa-download"></i>
+                    <button>Download Discord</button>
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="w-screen flex justify-center items-center pt-[2rem] pb-[3rem] px-[1.5rem] text-[#ffffff] bg-[#212121]">
+            <div class="max-w-[80%] flex flex-col gap-[1rem]">
+                <p class="text-[30px] text-Blurple font-Ginto-Nord font-extrabold">IMAGINE A PLACE</p>
+                <div class="flex flex-row gap-[1.5rem] text-[23px]">
+                    <a href="" class="hover:scale-105 transition-all duration-200"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="hover:scale-105 transition-all duration-200"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="hover:scale-105 transition-all duration-200"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="hover:scale-105 transition-all duration-200"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
